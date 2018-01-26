@@ -1,0 +1,152 @@
+<template name="nous" > 
+
+
+			
+			
+
+				
+
+
+				<!-- Gigantic Heading -->
+				<section class="wrapper style2" style="padding-bottom: 5px">
+					<div class="container">
+						<header class="major">
+							<h2>Qui sommes-nous ?</h2>
+							
+							<p style="font-family: Open Sans; font-weight: normal; font-size: 16px">
+
+Imagine Conseil est la Junior Conseil de Grenoble INP - Génie Industriel. <b>Membre de la Confédération Nationale des Junior Entreprises (CNJE)</b>, elle a pour but de proposer aux entreprises la réalisation d’études sur les domaines de compétences de l’école. </p>
+<p style="font-family: Open Sans; font-weight: normal; font-size: 16px">Cela se traduit concrètement par la <b>gestion de l’association en tant qu’entreprise</b>, et d’autre part par la <b>réalisation d’étude</b> en tant que consultants. C’est une véritable double formation que la Junior délivre à ses membres, en s’axant sur l'entrepreneuriat, la gestion d’entreprise, ou encore la relation commerciale. Cela ouvre des portes à nos membres qui sont conviés à des congrès régionaux, nationaux voire européens !</p>
+<p style="font-family: Open Sans; font-weight: normal; font-size: 16px"> En bref, la Junior Conseil permet à un élève ingénieur de faire ses premiers pas dans la vie professionnelle tout en participant à la vie étudiante. Détentrice du label « Junior Création » attribué par la CNJE, Imagine Conseil s’inscrit dans un bassin grenoblois très fort !</p>
+
+
+						
+	
+		<div class="stat">
+		<div class="row">
+            <div class="3u 12u(narrower)">
+                <div class="milestone-counter">
+                    <i class="fa fa-thumbs-o-up fa-3x"></i>
+                    <span class="stat-count highlight">30</span>
+                    <div class="milestone-details">Clients satisfaits </div>
+                </div>
+            </div>
+            <div class="3u 12u(narrower)">
+                <div class="milestone-counter">
+                    <i class="fa fa-users fa-3x"></i>
+                    <span class="stat-count highlight">100</span>
+                    <div class="milestone-details">Intervenants</div>
+                </div>
+            </div>
+            <div class="3u 12u(narrower)">
+                <div class="milestone-counter">
+                    <i class="fa fa-university fa-3x"></i>
+                    <span class="stat-count highlight">20</span>
+                    <div class="milestone-details">Membres actifs</div>
+                </div>
+            </div>
+
+            <div class="3u 12u(narrower)">
+                <div class="milestone-counter">
+                    <i class="fa fa-play-circle fa-3x"></i>
+                    <span class="stat-count2 highlight">1992</span>
+                    <div class="milestone-details">Depuis</div>
+                </div>
+            </div>
+            </div>
+		</div><!-- stat -->
+
+
+	
+
+	  <script src="js/jquery.js"></script>
+    <script type="text/javascript">
+
+	(function($) {
+		"use strict";
+		function count($this){
+		var current = parseInt($this.html(), 10);
+		current = current + 1; /* Where 1 is increment */	
+		$this.html(++current);
+			if(current > $this.data('count')){
+				$this.html($this.data('count'));
+			} else {    
+				setTimeout(function(){count($this)}, 50);
+			}
+		}        	
+		$(".stat-count").each(function() {
+		  $(this).data('count', parseInt($(this).html(), 10));
+		  $(this).html('0');
+		  count($(this));
+		});
+
+
+   })(jQuery);
+
+
+   (function($) {
+		"use strict";
+		function count($this){
+		var current = parseInt($this.html(), 10);
+		current = current - 1; /* Where 1 is increment */	
+		$this.html(--current);
+			if(current < $this.data('count')){
+				$this.html($this.data('count'));
+			} else {    
+				setTimeout(function(){count($this)}, 50);
+			}
+		}        	
+		$(".stat-count2").each(function() {
+		  $(this).data('count', parseInt($(this).html(), 10));
+		  $(this).html('2017');
+		  count($(this));
+		});
+
+
+   })(jQuery);
+
+
+
+   
+
+
+   </script>
+
+ 
+
+
+
+ 
+
+
+
+
+   				</header>
+					</div>
+				</section>
+
+
+
+
+
+			
+
+
+
+
+
+			
+
+	
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+
+
+
+	</template>
