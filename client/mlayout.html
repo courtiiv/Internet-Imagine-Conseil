@@ -3,6 +3,16 @@
 
 
 <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115782894-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-115782894-1');
+        </script>
+
 		<title>Imagine Conseil</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -74,7 +84,6 @@
 								<li><a class="js-scrollTo" href="#pourquoi" >Nous choisir</a></li>
 								<li><a class="js-scrollTo" href="#je" >Les JE</a></li>
 								<li><a class="js-scrollTo" href="#deroulement">Déroulement</a></li>
-								<li><a class="js-scrollTo" href="#test">Clients</a></li>
 							</ul>
 						
 						</nav>
@@ -131,10 +140,6 @@
 
 				<div id="deroulement">
 					{{> deroulement}}
-				</div>
-				
-				<div id="test">
-					{{> test}}
 				</div>
 			
 				

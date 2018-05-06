@@ -9,17 +9,45 @@
 
 				<!-- Gigantic Heading -->
 				<section class="wrapper style2" style="padding-bottom: 5px">
+
+		
 					<div class="container">
-						<header class="major">
-							<h2>Qui sommes-nous ?</h2>
+
+						<header class="major" >
+
+						<div class="row">
+
+						<section class="3u 12u(narrower)">
+						<div align="left">
+						<i align="left"><img src="images/logo1.png" alt="logoIC" height="95px" style= "margin-top:-1.5em"> </i>
+						</div>
+					    </section>	
+
+                        <section class="6u 12u(narrower)">
+                        <div align="center">
+                        <h2>Qui sommes-nous ?</h2>
+                        </div>
+                        </section>
+                            
+                        <section class="3u 12u(narrower)">
+						<div align="right">
+						<i align="right"><img src="images/gi.png" alt="logoGI" height="80px" style= "margin-top:-1.2em"> </i>
+						</div>
+					    </section>    
+                            
+							</div>
+                    
+
 							
 							<p style="font-family: Open Sans; font-weight: normal; font-size: 16px">
 
-Imagine Conseil est la Junior Conseil de Grenoble INP - Génie Industriel. <b>Membre de la Confédération Nationale des Junior Entreprises (CNJE)</b>, elle a pour but de proposer aux entreprises la réalisation d’études sur les domaines de compétences de l’école. </p>
-<p style="font-family: Open Sans; font-weight: normal; font-size: 16px">Cela se traduit concrètement par la <b>gestion de l’association en tant qu’entreprise</b>, et d’autre part par la <b>réalisation d’étude</b> en tant que consultants. C’est une véritable double formation que la Junior délivre à ses membres, en s’axant sur l'entrepreneuriat, la gestion d’entreprise, ou encore la relation commerciale. Cela ouvre des portes à nos membres qui sont conviés à des congrès régionaux, nationaux voire européens !</p>
-<p style="font-family: Open Sans; font-weight: normal; font-size: 16px"> En bref, la Junior Conseil permet à un élève ingénieur de faire ses premiers pas dans la vie professionnelle tout en participant à la vie étudiante. Détentrice du label « Junior Création » attribué par la CNJE, Imagine Conseil s’inscrit dans un bassin grenoblois très fort !</p>
+Créée en 1992, Imagine Conseil est la Junior Initiative de Grenoble INP - Génie Industriel.  <b>Membre de la Confédération Nationale des Junior-Entreprises</b>, elle bénéficie de plus de 25 ans d’expérience qui vous garantit un travail de qualité dans l’accompagnement de vos projets. </p>
 
 
+<p style="font-family: Open Sans; font-weight: normal; font-size: 16px">En tant que Junior Conseil, nous proposons nos services aux entreprises dans notre domaine de compétences, <b>le génie industriel</b>, sur un modèle semblable à celui des cabinets de conseil. Cela se traduit concrètement par la <b>gestion de l’association en tant qu’entreprise</b>, et d’autre part par la <b>réalisation d’étude</b> en tant que consultants! </p>
+<p></p>
+
+<iframe src="https://player.vimeo.com/video/106665332"  height="360" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 						
 	
 		<div class="stat">
@@ -41,7 +69,7 @@ Imagine Conseil est la Junior Conseil de Grenoble INP - Génie Industriel. <b>Me
             <div class="3u 12u(narrower)">
                 <div class="milestone-counter">
                     <i class="fa fa-university fa-3x"></i>
-                    <span class="stat-count highlight">20</span>
+                    <span class="stat-count highlight">25</span>
                     <div class="milestone-details">Membres actifs</div>
                 </div>
             </div>
@@ -88,7 +116,7 @@ Imagine Conseil est la Junior Conseil de Grenoble INP - Génie Industriel. <b>Me
 		"use strict";
 		function count($this){
 		var current = parseInt($this.html(), 10);
-		current = current - 1; /* Where 1 is increment */	
+		current = current - 1; /* Ça va diminuer de 1  */	
 		$this.html(--current);
 			if(current < $this.data('count')){
 				$this.html($this.data('count'));
@@ -98,7 +126,7 @@ Imagine Conseil est la Junior Conseil de Grenoble INP - Génie Industriel. <b>Me
 		}        	
 		$(".stat-count2").each(function() {
 		  $(this).data('count', parseInt($(this).html(), 10));
-		  $(this).html('2017');
+		  $(this).html('2018'); /* Date actuelle */
 		  count($(this));
 		});
 
