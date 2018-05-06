@@ -1,0 +1,62 @@
+
+
+
+.stat {
+
+
+   margin:75px auto;
+
+
+   text-align:center;
+
+}
+
+
+.highlight {
+
+
+   color:#111;
+
+
+   padding:20px 0;
+
+
+   font-weight:bold;
+
+
+   display:block;
+
+
+   overflow:hidden;
+
+
+   margin-bottom:0;
+
+
+   font-size:60px;
+
+}
+
+
+.stat i {
+
+
+	color:#00BFFF;
+
+}
+
+
+.milestone-details {
+
+
+
+
+   font-size:28px;
+
+
+   color:#5a5a5a;
+
+}
+
+ 
+
